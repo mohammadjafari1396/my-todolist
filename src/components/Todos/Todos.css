@@ -1,0 +1,48 @@
+.bg-todo {
+    margin: 100px auto 0 auto;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 17px 4px rgba(106, 105, 105, 0.36);
+}
+
+.title-none {
+    text-align: center;
+    color: rgb(117, 107, 107);
+}
+
+.todo {
+    border: 1px solid rgba(128, 128, 128, 0.541);
+    border-radius: 8px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.todo div button {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(237, 1, 1);
+    padding: 5px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.todo h4 {
+    margin: 0;
+    color: rgb(117, 107, 107);
+}
+
+.todo div {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    text-decoration: line-through;
+}
